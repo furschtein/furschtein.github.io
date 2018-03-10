@@ -1,0 +1,26 @@
+@font-face {
+  font-family: blankenburg;
+  src: url("../fonts/blankenburg.ttf");
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: blankenburg;
+  font-size: 64px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
